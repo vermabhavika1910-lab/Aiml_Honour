@@ -1,0 +1,38 @@
+Q. why we use access modify?
+->Access modifiers are keywords used to control the visibility and scope of classes, methods, and variables in a program. We use them to enforce encapsulation, protect sensitive data from unauthorized external changes, prevent accidental bugs, and make large codebases easier to maintain
+
+Q. can we inherit string class in java?
+-> No, you cannot inherit the String class in Java.
+
+Q. why we use private?
+->we use the private access modifier to restrict access to a class's internal data and methods, ensuring they can only be used from within that same class. This practice is fundamental to object-oriented design
+
+Q. what does a public final class mean ?
+-> In Java, declaring a class as public final class means it is globally accessible to all other classes but strictly forbidden from being inherited or subclassed
+
+Q. what does a private final class mean in java?
+->  a private final class is a nested or inner class that cannot be accessed outside its outer class (private) and cannot be inherited or subclassed (final).
+
+Q. multiple inheritance create what problem in java and why?
+-> The Diamond Problem occurs when a single class extends two separate classes, both of which share a common superclass
+   [ Class A ]  (Grandparent: Defines void display())
+       /     \
+      /       \
+ [ Class B ] [ Class C ] (Parents: Both override void display())
+      \       /
+       \     /
+     [ Class D ]  (Child: Tries to inherit from both B and C)
+
+Q. why does multiple inheritance work in python?
+->Multiple inheritance works cleanly in Python because of its built-in Method Resolution Order (MRO), which resolves the ambiguity of which parent class to look at first
+
+delimiters -> "" or , 
+
+Q. what is abstraction and how is it implemented 
+-> Abstraction : hiding the implementation of a method 
+   its achieved through access modifier
+
+Q. pillars of OOPs
+-> Major :(4) Encapsulation, Abstraction, Inheritance, and Polymorphism
+   minor :(4) Abstraction, Encapsulation, Modularity->can be achieved though (file based)namespace->logically divided and Denis package, and Hierarchy, concurrency->multi-threading and multi 
+									
